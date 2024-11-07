@@ -1,0 +1,16 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: frankmwangi8118@gmail.com
+    password: bpyxineguigpgotl
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  task:
+    scheduling:
+      pool:
+        size: 5
